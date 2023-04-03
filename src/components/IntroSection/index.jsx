@@ -1,3 +1,4 @@
+import File from "../../file/resume_sajid_m.pdf";
 const IntroSection = () => {
   return (
     <section class="resume-section" id="about">
@@ -11,29 +12,30 @@ const IntroSection = () => {
           <a href="mailto:name@email.com">sajidprimero@gmail.com</a>
         </div>
         <p class="lead mb-5">
-          {/* I am experienced in leveraging agile frameworks to provide a robust
-          synopsis for high level overviews. Iterative approaches to corporate
-          strategy foster collaborative thinking to further the overall value
-          proposition. */}
-          Experienced{" "}
-          <b>
-            <u>Android Application Developer</u>{" "}
-          </b>
-          with <b>5</b> years of experience designing and developing
-          high-quality mobile applications for Android devices using. Skilled in
-          various aspects of Android application development, including user
-          interface design, coding, testing, debugging, and deployment.
-          Proficient in programming languages such as{" "}
-          <b>Java ,JavaScript,Dart</b>, and frameworks such as
-          <b> React JS, React Native and Flutter,</b> and familiar with{" "}
-          <b>Android Studio, Git,</b> and other relevant tools.
-          <p />
-          <p align="left">
-            Demonstrated ability to work collaboratively with cross-functional
-            teams and deliver projects within strict timelines. Adept at staying
-            up-to-date with the latest trends and technologies in mobile
-            development.
-          </p>
+          <ul>
+            <li>
+              Experienced{" "}
+              <b>
+                <u>Android Application Developer</u>{" "}
+              </b>
+              with <b>5</b> years of experience designing and developing
+              high-quality mobile applications for Android devices.
+            </li>
+
+            <li>
+              Skilled in various aspects of Android application development,
+              including user interface design, coding, testing, debugging, and
+              deployment
+            </li>
+
+            <li>
+              Proficient in programming languages such as{" "}
+              <b>Java ,JavaScript,Dart</b>, and frameworks such as
+              <b> React JS, React Native and Flutter,</b> and familiar with{" "}
+              <b>Android Studio,Visual Studio Code, Git,Bit Bucket,JIRA</b> and
+              other relevant tools.
+            </li>
+          </ul>
         </p>
         <div class="social-icons">
           <a
@@ -54,11 +56,7 @@ const IntroSection = () => {
             <button class="btn btn-primary">Hire me</button>
           </div> */}
           <div class="social-icons">
-            <a
-              class="btn btn-secondary"
-              href="/src/file/resume_sajid_m.pdf"
-              download
-            >
+            <a class="btn btn-secondary" href={File} download>
               Download resume
             </a>
           </div>

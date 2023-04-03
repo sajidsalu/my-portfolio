@@ -37,6 +37,11 @@ const NavBar = () => {
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">
+              Skills
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">
               Experience
             </a>
@@ -46,11 +51,7 @@ const NavBar = () => {
               Education
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">
-              Skills
-            </a>
-          </li>
+
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">
               Interests
